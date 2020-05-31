@@ -51,6 +51,9 @@ Plug 'mattn/emmet-vim'
 " The illegal Git plugin
 Plug 'tpope/vim-fugitive'
 
+" Syntax checker
+Plug 'vim-syntastic/syntastic'
+
 call plug#end()
 
 " vim-airline
@@ -67,3 +70,25 @@ autocmd FileType html,css EmmetInstall
 " NERDtree
 " enable line numbers
 let NERDTreeShowLineNumbers=1
+
+""" Syntastic config
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+
+" JS linter
+let g:syntastic_javascript_checkers = ['closurecompiler']
+let g:syntastic_javascript_closurecompiler_script = '/usr/bin/closure-compiler'
+
+" C linter
+let g:syntastic_c_checkers = ['gcc']
+
+" Sign Column appearance
+let g:syntastic_error_symbol = '❌'
+let g:syntastic_style_error_symbol = '⁉️'
+let g:syntastic_warning_symbol = '⚠️'
+let g:syntastic_style_warning_symbol = '💩'
+highlight link SyntasticErrorSign cleared
+highlight link SyntasticWarningSign cleared
+highlight link SyntasticStyleErrorSign cleared
+highlight link SyntasticStyleWarningSign cleared
+highlight clear SignColumn

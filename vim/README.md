@@ -17,6 +17,16 @@ See the .vimrc file for more details.
  - [NERDTree](https://github.com/preservim/nerdtree)
  - [Emmet](https://github.com/mattn/emmet-vim)
  - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+ - [syntastic](https://github.com/vim-syntastic/syntastic)
+
+# Linter
+Various syntax checkers for a lot of languges can be found
+[here](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt)
+(:help syntastic-checkers in Vim).
+
+I'm currently using:
+ - JavaScript: eslint
+ - C: gcc
 
 # Some documentation
  - Emmet:
