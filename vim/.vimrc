@@ -48,6 +48,9 @@ Plug 'preservim/nerdtree'
 " Emmet
 Plug 'mattn/emmet-vim'
 
+" The illegal Git plugin
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " vim-airline

@@ -16,10 +16,13 @@ See the .vimrc file for more details.
  - [vim-airline](https://github.com/vim-airline/vim-airline)
  - [NERDTree](https://github.com/preservim/nerdtree)
  - [Emmet](https://github.com/mattn/emmet-vim)
+ - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 # Some documentation
  - Emmet:
  	[cheatsheet](https://docs.emmet.io/cheat-sheet/)
+ - Fugitive cheatsheet:
+ 	[commands](https://github.com/yanick/cheatsheets/blob/master/vim/fugitive.mkd)
  - vim-surround:
  	[readme](https://github.com/tpope/vim-surround/blob/master/README.markdown)
 
