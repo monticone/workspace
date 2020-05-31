@@ -6,6 +6,7 @@ See the .vimrc file for more details.
  1. Set the ~/.vimrc file using a symbolic link for example.
  2. Install [vim-plug](https://github.com/junegunn/vim-plug) on your ~/.vim folder.
  3. Launch :PlugInstall in command mode on your vim instance.
+
 (Install fonts-powerline for a better appearance.)
 
 # Plugin list
@@ -16,8 +17,14 @@ See the .vimrc file for more details.
  - [NERDTree](https://github.com/preservim/nerdtree)
  - [Emmet](https://github.com/mattn/emmet-vim)
 
-# References
+# Some documentation
  - Emmet:
  	[cheatsheet](https://docs.emmet.io/cheat-sheet/)
  - vim-surround:
  	[readme](https://github.com/tpope/vim-surround/blob/master/README.markdown)
+
+# Other usefull pointers
+ - The [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+ - An exaustive vim plugin collection: [VimAwesome](https://vimawesome.com/)
+ - The official [vim website](https://www.vim.org/)
+ - A pretty vim [cheatsheet](https://devhints.io/vim)
