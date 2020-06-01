@@ -54,6 +54,9 @@ Plug 'tpope/vim-fugitive'
 " Syntax checker
 Plug 'vim-syntastic/syntastic'
 
+" GitGutter
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " vim-airline
@@ -87,8 +90,20 @@ let g:syntastic_error_symbol = '❌'
 let g:syntastic_style_error_symbol = '⁉️'
 let g:syntastic_warning_symbol = '⚠️'
 let g:syntastic_style_warning_symbol = '💩'
-highlight link SyntasticErrorSign cleared
-highlight link SyntasticWarningSign cleared
-highlight link SyntasticStyleErrorSign cleared
-highlight link SyntasticStyleWarningSign cleared
-highlight clear SignColumn
+hi link SyntasticErrorSign cleared
+hi link SyntasticWarningSign cleared
+hi link SyntasticStyleErrorSign cleared
+hi link SyntasticStyleWarningSign cleared
+hi clear SignColumn
+
+" GitGutter
+nmap ghs <Plug>(GitGutterStageHunk)
+nmap ghu <Plug>(GitGutterUndoHunk)
+nmap ghp <Plug>(GitGutterPreviewHunk)
+nmap ghf <Plug>(GitGutterFold)
+nmap gn <Plug>(GitGutterNextHunk)
+nmap gp <Plug>(GitGutterPrevHunk)
+se updatetime=100
+hi GitGutterAdd term=bold cterm=bold gui=bold guifg=Green
+hi GitGutterChange term=bold cterm=bold gui=bold guifg=White
+hi GitGutterDelete term=bold cterm=bold gui=bold guifg=Red
