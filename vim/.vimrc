@@ -106,7 +106,7 @@ nmap gj :Gpull<Enter>
 nmap ghs <Plug>(GitGutterStageHunk)
 nmap ghu <Plug>(GitGutterUndoHunk)
 nmap ghp <Plug>(GitGutterPreviewHunk)
-nmap ghf <Plug>(GitGutterFold)
+nmap ghf :GitGutterFold<Enter>
 nmap gn <Plug>(GitGutterNextHunk)
 nmap gp <Plug>(GitGutterPrevHunk)
 se updatetime=100
