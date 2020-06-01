@@ -96,6 +96,12 @@ hi link SyntasticStyleErrorSign cleared
 hi link SyntasticStyleWarningSign cleared
 hi clear SignColumn
 
+" fugitive
+nmap gs :Gstatus<Enter>
+nmap gc :Gcommit<Enter>
+nmap gk :Gpush<Enter>
+nmap gj :Gpull<Enter>
+
 " GitGutter
 nmap ghs <Plug>(GitGutterStageHunk)
 nmap ghu <Plug>(GitGutterUndoHunk)

@@ -29,17 +29,21 @@ I'm currently using:
  - JavaScript: eslint
  - C: gcc
 
+# Fugitive
+Fugitive map bindings
+ -  `gs`: Status
+ -  `gc`: Commit
+ -  `gk`: Push
+ -  `gj`: Pull
+
 # Git Gutter
 Gitgutter map bindings
-
-Command | Description
---- | --- | ---
-`gn` | Next hunk
-`gp` | Previous hunk
-`ghp` | Preview current hunk
-`ghs` | Stage current hunk
-`ghu` | Undo current hunk
-`ghf` | Fold all unchanged lines (Toggle)
+ - `gn`: Next hunk
+ - `gp`: Previous hunk
+ - `ghp`: Preview current hunk
+ - `ghs`: Stage current hunk
+ - `ghu`: Undo current hunk
+ - `ghf`: Fold all unchanged lines (Toggle)
 
 # Some documentation
  - Emmet:
