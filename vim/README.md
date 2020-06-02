@@ -32,7 +32,7 @@ I'm currently using:
 # Fugitive
 Fugitive map bindings
  -  `gs`: Status
- -  `gc`: Commit
+ -  `gc`: Commit (*With GPG signature*)
  -  `gk`: Push
  -  `gj`: Pull
 

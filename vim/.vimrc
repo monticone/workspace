@@ -98,7 +98,10 @@ hi clear SignColumn
 
 " fugitive
 nmap gs :Gstatus<Enter>
-nmap gc :Gcommit<Enter>
+
+" Remove -S arg to avoid GPG signature
+nmap gc :Gcommit -S<Enter>
+
 nmap gk :Gpush<Enter>
 nmap gj :Gpull<Enter>
 
