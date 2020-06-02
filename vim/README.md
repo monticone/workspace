@@ -26,7 +26,7 @@ Various syntax checkers for a lot of languges can be found
 (:help syntastic-checkers in Vim).
 
 I'm currently using:
- - JavaScript: eslint
+ - JavaScript: closurecompiler
  - C: gcc
 
 # Fugitive
