@@ -1,13 +1,13 @@
 # My VIM configuration
 This folder contains my personal VIM configuration.
-See the .vimrc file for more details.
+See the `.vimrc` file for more details.
 
 # Setup
- 1. Set the ~/.vimrc file using a symbolic link for example.
- 2. Install [vim-plug](https://github.com/junegunn/vim-plug) on your ~/.vim folder.
- 3. Launch :PlugInstall in command mode on your vim instance.
+ 1. Set the `~/.vimrc` file using a symbolic link for example.
+ 2. Install [vim-plug](https://github.com/junegunn/vim-plug) on your `~/.vim` folder.
+ 3. Launch `:PlugInstall` in command mode on your vim instance.
 
-(Install fonts-powerline for a better appearance.)
+(Install *fonts-powerline* for a better appearance.)
 
 # Plugin list
  - [vim-plug](https://github.com/junegunn/vim-plug)
@@ -23,7 +23,7 @@ See the .vimrc file for more details.
 # Linter
 Various syntax checkers for a lot of languges can be found
 [here](https://github.com/vim-syntastic/syntastic/blob/master/doc/syntastic-checkers.txt)
-(:help syntastic-checkers in Vim).
+(`:help syntastic-checkers` in Vim).
 
 I'm currently using:
  - JavaScript: closurecompiler
